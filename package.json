@@ -1,0 +1,63 @@
+{
+  "name": "@lestermarch/caip-fluentui-theme",
+  "version": "0.1.0",
+  "description": "CAIP (Cloud & AI Platform) Fluent UI React v9 theme — Cloud Blue / Cloud Teal primaries with AI accent palette, light + dark.",
+  "keywords": [
+    "fluentui",
+    "fluent-ui",
+    "theme",
+    "react",
+    "design-system",
+    "caip",
+    "microsoft"
+  ],
+  "license": "MIT",
+  "author": "lestermarch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lestermarch/caip-fluentui-theme.git"
+  },
+  "homepage": "https://github.com/lestermarch/caip-fluentui-theme#readme",
+  "bugs": {
+    "url": "https://github.com/lestermarch/caip-fluentui-theme/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "@fluentui/react-components": ">=9.0.0",
+    "react": ">=17"
+  },
+  "devDependencies": {
+    "@fluentui/react-components": "^9.54.0",
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
