@@ -33,6 +33,10 @@ export function App({ dark }: { dark: boolean }) {
 
 A runnable Vite + React showcase lives in [`examples/fluent-showcase`](./examples/fluent-showcase). It demonstrates the theme with light / dark toggle and the standard component set (hero, buttons, badges, cards, table, chart, palette).
 
+| Light | Dark |
+|---|---|
+| ![Showcase, light theme](./examples/fluent-showcase/showcase-light.png) | ![Showcase, dark theme](./examples/fluent-showcase/showcase-dark.png) |
+
 ```bash
 cd examples/fluent-showcase
 npm install
