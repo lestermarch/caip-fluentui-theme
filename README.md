@@ -29,6 +29,16 @@ export function App({ dark }: { dark: boolean }) {
 }
 ```
 
+## Example
+
+A runnable Vite + React showcase lives in [`examples/fluent-showcase`](./examples/fluent-showcase). It demonstrates the theme with light / dark toggle and the standard component set (hero, buttons, badges, cards, table, chart, palette).
+
+```bash
+cd examples/fluent-showcase
+npm install
+npm run dev
+```
+
 ## Exports
 
 | Export | What it is |
@@ -64,10 +74,6 @@ CAIP gradient rules:
 - Use gradients on hero shapes, accent rules, or illustrations — not as full-page backgrounds.
 - Use one gradient treatment per view.
 - Keep body text off gradients.
-
-## Design system this theme belongs to
-
-The full CAIP web design system (govuk-frontend wrapper + Sass tokens + agent skills) lives at [lestermarch/caip-labs-design-system](https://github.com/lestermarch/caip-labs-design-system). This package is the parallel-stack Fluent React adaptation of the same colour decisions.
 
 ## Versioning
 
